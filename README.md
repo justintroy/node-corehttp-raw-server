@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-[[MIT License][license-shield]][license-url]
+[![MIT License][license-shield]][license-url]
 
 ## About The Project
 
