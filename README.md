@@ -4,15 +4,17 @@
 
 ## About The Project
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Basic http and file-based routing implementation without the use of external libraries and using node core modules only. Made for academic purposes to work on what happens behind the scenes of libraries that work with HTTP.
 
-Here's why:
+This project follows the old way of serving views with response headers (HTML only).
+Routes is based on .js files inside `/routes` folder. `root.js` folder is equivalent to `/` path.
 
--   Your time should be focused on creating something amazing. A project that solves a problem and helps others
--   You shouldn't be doing the same tasks over and over like creating a README from scratch
--   You should implement DRY principles to the rest of your life :smile:
+#### Files
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+-   main.js - main file that boots the server and listens to port `3000`
+-   router.js - main router logic, it executes the correct route module based on request.
+-   routesHandler.js - handles the file logic on `/routes` folder. It is the responsible for returning the correct file based on url.
+-   /routes - directory where route files resides. Files inside will be executed once a HTTP request url match a file name. <em>`root.js` is equivalent to `/` route.</em>
 
 ### Built With
 
