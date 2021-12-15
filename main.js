@@ -1,6 +1,6 @@
 import http from "http";
 
-import { requestHandler } from "./routes.js";
+import { requestHandler } from "./router.js";
 
 const server = http.createServer(requestHandler);
 
