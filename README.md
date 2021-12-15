@@ -30,5 +30,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/justintroy/node-corehttp-raw-server.svg?style=for-the-badge
 [license-url]: https://github.com/justintroy/node-corehttp-raw-server/blob/master/LICENSE.txt
