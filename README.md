@@ -4,7 +4,7 @@
 
 ## About The Project
 
-Basic http and file-based routing implementation using node core modules only. Made for academic purposes to demonstrate what happens behind the scenes of libraries that work with HTTP _(ExpressJs)_.
+Basic http and file-based routing implementation using node core modules. Made for academic purposes to demonstrate what happens behind the scenes of libraries that work with HTTP _(ExpressJs)_.
 
 This project follows the old way of serving views with response headers (HTML only).
 Routes is based on .js files inside `/routes` folder. _`root.js` folder is equivalent to `/` path_.
