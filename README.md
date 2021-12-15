@@ -4,17 +4,17 @@
 
 ## About The Project
 
-Basic http and file-based routing implementation without the use of external libraries and using node core modules only. Made for academic purposes to work on what happens behind the scenes of libraries that work with HTTP.
+Basic http and file-based routing implementation using node core modules only. Made for academic purposes to demonstrate what happens behind the scenes of libraries that work with HTTP _(ExpressJs)_.
 
 This project follows the old way of serving views with response headers (HTML only).
-Routes is based on .js files inside `/routes` folder. `root.js` folder is equivalent to `/` path.
+Routes is based on .js files inside `/routes` folder. _`root.js` folder is equivalent to `/` path_.
 
 #### Files
 
 -   main.js - main file that boots the server and listens to port `3000`
 -   router.js - main router logic, it executes the correct route module based on request.
 -   routesHandler.js - handles the file logic on `/routes` folder. It is the responsible for returning the correct file based on url.
--   /routes - directory where route files resides. Files inside will be executed once a HTTP request url match a file name. <em>`root.js` is equivalent to `/` route.</em>
+-   /routes - directory where route files resides. Files inside will be executed once a HTTP request url match a file name. _`root.js` is equivalent to `/` route._
 
 #### Built With
 
