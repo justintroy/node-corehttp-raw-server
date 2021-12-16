@@ -24,6 +24,11 @@ Routes is based on .js files inside `/routes` folder. _`root.js` folder is equiv
 
 To run, simply cd to the directory where <em>main.js</em> resides and enter `node main.js`
 
+## Roadmap
+
+-   [ ] Make routesHandler serve HTML files instead of .js files. _(Server-side Rendering)_
+-   _To be continued_
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
