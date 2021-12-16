@@ -26,8 +26,8 @@ To run, simply cd to the directory where <em>main.js</em> resides and enter `nod
 
 ## Roadmap
 
--   [ ] Make routesHandler serve HTML files instead of .js files. _(Server-side Rendering)_
--   _To be continued_
+-   [ ] Make routesHandler serve HTML files instead of .js files. _(Server-side rendering)_
+-   [ ] _To be continued_
 
 ## License
 
