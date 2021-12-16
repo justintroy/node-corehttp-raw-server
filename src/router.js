@@ -8,6 +8,6 @@ export const requestHandler = async (req, res) => {
         const module = await routesHandler(url);
         module.default(req, res);
     } catch (error) {
-        console.log(err);
+        console.log(error);
     }
 };
