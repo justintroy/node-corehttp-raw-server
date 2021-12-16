@@ -4,7 +4,7 @@
 
 ## About The Project
 
-Basic http and file-based routing implementation using node core modules only. Made for academic purposes to demonstrate what happens behind the scenes of libraries that work with HTTP _(ExpressJs)_.
+Basic http and file-based routing implementation using node core modules. Made for academic purposes to demonstrate what happens behind the scenes of libraries that work with HTTP _(ExpressJs)_.
 
 This project follows the old way of serving views with response headers (HTML only).
 Routes is based on .js files inside `/routes` folder. _`root.js` folder is equivalent to `/` path_.
@@ -35,5 +35,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/justintroy/node-corehttp-raw-server.svg?style=for-the-badge
 [license-url]: https://github.com/justintroy/node-corehttp-raw-server/blob/master/LICENSE.txt
